@@ -10,7 +10,6 @@ from PIL import Image as PILImage
 
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
