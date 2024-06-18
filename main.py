@@ -28,7 +28,7 @@ def extract_pdf_text(pdf_file):
     return text
 
 
-client = openai.OpenAI(api_key="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")
+
 # Function to summarize PDF using OpenAI (with chunking)
 def summarize_text(pdf_text, max_tokens=500):
     
